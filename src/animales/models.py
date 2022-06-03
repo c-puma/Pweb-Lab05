@@ -5,5 +5,6 @@ class Animal(models.Model):
     especie = models.TextField()        
     dieta = models.TextField()
     años = models.IntegerField()
-    Salvaje = models.BooleanField()
+    salvaje = models.BooleanField()
+   
     
