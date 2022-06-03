@@ -4,4 +4,6 @@ from django.db import models
 class Animal(models.Model):
     especie = models.TextField()        
     dieta = models.TextField()
+    años = models.IntegerField()
+    Salvaje = models.BooleanField()
     
